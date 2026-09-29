@@ -2,9 +2,10 @@
   <img src="./assets/Perl_tools_title_dark.png#gh-dark-mode-only" alt="banner dark">
   <img src="./assets/Perl_tools_title_light.png#gh-light-mode-only" alt="banner light">
 </p>
-<!--
-<img src="./assets/Perl_tools_title_light.png">
--->
+
+> [!NOTE]  
+> info
+
 
 
 ## ツール名  
@@ -25,7 +26,7 @@
 | sccheck         | 特殊文字検出ルーチン                ||
 | uzfl.pl         | ZIP file 展張Tool(一括、No付加)     ||
 
-> [!coution]  
+> [!caution]  
 > コマンドラインツールです。WSL又はLinux、Mac(Terminal)上で実行して下さい。  
 > <img src="./assets/env/M_caution.png" height="14"> これらを使おうとする人には常識かも知れませんが…  
 > 　 危険な動作をするツールがあります。  
