@@ -1,0 +1,129 @@
+#! /usr/bin/perl
+
+#_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+# name     : ansi_print.pl
+# function : Output of ANSI Color message
+# method   : ansi_print.pl mode message
+#_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+
+use Term::ANSIColor qw(colored);
+my $msg = "";
+if ($#ARGV == -1) {
+	$msg =
+	"┌─────────────┬────────────────────────────────┐\n" .
+	"│ name        │ ansi_print                     │\n" .
+	"├─────────────┼────────────────────────────────┤\n" .
+	"│ function    │ ANSI color string printing     │\n" .
+	"├─────────────┼────────────────────────────────┤\n";
+	system ("ansi_print bright_green '$msg'");
+
+	print colored("│ usaeage     │ ansi_print "	, "bright_green");
+	print colored("mode"				, "bright_blue");
+	print colored(" message <⏎  >  │\n"	, "bright_green");
+
+	print colored("├─────────────┼────────────────────────────────┤\n", "bright_green");
+	print colored("│ ", "bright_green");
+	print colored("mode", "bright_blue");
+	print colored(" sample │", "bright_green");
+	print colored(" bright_white                   "	, "bright_white");
+	print colored("|\n│             │","bright_green");
+	print colored(" bright_black                   "	, "bright_black");
+	print colored("|\n│             │","bright_green");
+	print colored(" bright_blue                    "	, "bright_blue");
+	print colored("|\n│             │","bright_green");
+	print colored(" bright_green                   "	, "bright_green");
+	print colored("|\n│             │","bright_green");
+	print colored(" bright_cyan                    "	, "bright_cyan");
+	print colored("|\n│             │","bright_green");
+	print colored(" bright_red                     "	, "bright_red");
+	print colored("|\n│             │","bright_green");
+	print colored(" bright_magenta                 "	, "bright_magenta");
+	print colored("|\n│             │","bright_green");
+	print colored(" bright_yellow                  "	, "bright_yellow");
+	print colored("|\n│             │","bright_green");
+	print colored(" white                          "	, "white");
+	print colored("|\n│             │","bright_green");
+	print colored(" black                          "	, "black");
+	print colored("│","bright_green");
+	print colored(" <== black:表示はしてる。見えてないだけ💦",	"bright_yellow");
+	print colored("\n│             │","bright_green");
+	print colored(" blue                           ","blue");
+	print colored("|\n│             │","bright_green");
+	print colored(" green                          ","green");
+	print colored("|\n│             │","bright_green");
+	print colored(" cyan                           ","cyan");
+	print colored("|\n│             │","bright_green");
+	print colored(" red                            ","red");
+	print colored("|\n│             │","bright_green");
+	print colored(" magenta                        ","magenta");
+	print colored("|\n│             │","bright_green");
+	print colored(" yellow                         ","yellow");
+	print colored("│\n│             │"				, "bright_green");
+	print colored(" on_bright_white                ","on_bright_white");
+	print colored("|\n│             │","bright_green");
+	print colored(" on_bright_black                ","on_bright_black");
+	print colored("|\n│             │","bright_green");
+	print colored(" on_bright_blue                 ","on_bright_blue");
+	print colored("|\n│             │","bright_green");
+	print colored(" on_bright_green                ","on_bright_green");
+	print colored("|\n│             │","bright_green");
+	print colored(" on_bright_cyan                 ","on_bright_cyan");
+	print colored("|\n│             │","bright_green");
+	print colored(" on_bright_red                  ","on_bright_red");
+	print colored("|\n│             │","bright_green");
+	print colored(" on_bright_magenta              ","on_bright_magenta");
+	print colored("|\n│             │","bright_green");
+	print colored(" on_bright_yellow               ","on_bright_yellow");
+	print colored("|\n│             │","bright_green");
+	print colored(" on_white                       ","on_white");
+	print colored("|\n│             │","bright_green");
+	print colored(" on_black                       ","on_black");
+	print colored("|\n│             │","bright_green");
+	print colored(" on_blue                        ","on_blue");
+	print colored("|\n│             │","bright_green");
+	print colored(" on_green                       ", "on_green");
+	print colored("|\n│             │","bright_green");
+	print colored(" on_cyan                        ", "on_cyan");
+	print colored("|\n│             │","bright_green");
+	print colored(" on_red                         ", "on_red");
+	print colored("|\n│             │","bright_green");
+	print colored(" on_magenta                     ", "on_magenta");
+	print colored("|\n│             │","bright_green");
+	print colored(" on_yellow                      ", "on_yellow");
+	print colored("│\n└─────────────┴────────────────────────────────┘\n", "bright_green");
+} else {
+	my $mode = $ARGV[0];
+	my $msg = $ARGV[1];
+	if    ($mode eq 'bright_white')		{ print colored($msg, "bright_white"); }
+	elsif ($mode eq 'bright_black')		{ print colored($msg, "bright_black"); }
+	elsif ($mode eq 'bright_blue')		{ print colored($msg, "bright_blue"); }
+	elsif ($mode eq 'bright_green')		{ print colored($msg, "bright_green"); }
+	elsif ($mode eq 'bright_cyan')		{ print colored($msg, "bright_cyan"); }
+	elsif ($mode eq 'bright_red')		{ print colored($msg, "bright_red"); }
+	elsif ($mode eq 'bright_magenta')	{ print colored($msg, "bright_magenta"); }
+	elsif ($mode eq 'bright_yellow')	{ print colored($msg, "bright_yellow"); }
+	elsif ($mode eq 'white')			{ print colored($msg, "white"); }
+	elsif ($mode eq 'black')			{ print colored($msg, "black"); }
+	elsif ($mode eq 'blue')				{ print colored($msg, "blue"); }
+	elsif ($mode eq 'green')			{ print colored($msg, "green"); }
+	elsif ($mode eq 'cyan')				{ print colored($msg, "cyan"); }
+	elsif ($mode eq 'red')				{ print colored($msg, "red"); }
+	elsif ($mode eq 'magenta')			{ print colored($msg, "magenta"); }
+	elsif ($mode eq 'yellow')			{ print colored($msg, "yellow"); }
+	elsif ($mode eq 'on_bright_white')  { print colored($msg, "on_bright_white"); }
+	elsif ($mode eq 'on_bright_black')  { print colored($msg, "on_bright_black"); }
+	elsif ($mode eq 'on_bright_blue')   { print colored($msg, "on_bright_blue"); }
+	elsif ($mode eq 'on_bright_green')  { print colored($msg, "on_bright_green"); }
+	elsif ($mode eq 'on_bright_cyan')   { print colored($msg, "on_bright_cyan"); }
+	elsif ($mode eq 'on_bright_red')    { print colored($msg, "on_bright_red"); }
+	elsif ($mode eq 'on_bright_magenta'){ print colored($msg, "on_bright_magenta"); }
+	elsif ($mode eq 'on_bright_yellow') { print colored($msg, "on_bright_yellow"); }
+	elsif ($mode eq 'on_white')         { print colored($msg, "on_white"); }
+	elsif ($mode eq 'on_black')         { print colored($msg, "on_black"); }
+	elsif ($mode eq 'on_blue')          { print colored($msg, "on_blue"); }
+	elsif ($mode eq 'on_green')         { print colored($msg, "on_green"); }
+	elsif ($mode eq 'on_cyan')          { print colored($msg, "on_cyan"); }
+	elsif ($mode eq 'on_red')           { print colored($msg, "on_red"); }
+	elsif ($mode eq 'on_magenta')       { print colored($msg, "on_magenta"); }
+	elsif ($mode eq 'on_yellow')        { print colored($msg, "on_yellow"); }
+}

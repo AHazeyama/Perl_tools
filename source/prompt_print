@@ -1,0 +1,28 @@
+#! /usr/bin/perl
+#_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+# name     : prompt_print
+# function : Dummy prompt output
+# method   : prompt_print <⏎  >
+#_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+use strict;
+use warnings;
+use Term::ANSIColor qw(colored);
+#--- environment get --------------------------------
+my $whoami = `whoami`;
+chomp ($whoami);
+my $hostname =`hostname`;
+chomp ($hostname);
+my $user = $whoami . "@" . $hostname;
+my $pwd = `pwd`;
+chomp ($pwd);
+local $SIG{__WARN__} = sub {$pwd =~ s{^/mnt/[a-z]/Users/}{}};
+#warn "$pwd";
+#$pwd =~ s{^/mnt/[a-z]/Users/}{}
+#     or die print colored("\nThis directory is not under the Windows user's control.\n  ⇒  $pwd\n\n", "bright_red");
+$pwd = '~'. $pwd;
+#--- prompt print -------------------------------
+system ("ansi_print bright_magenta ' 😸  --- Execute processing --- 🙀\n'");
+system ("ansi_print bright_green $user");
+system ("ansi_print white ':'");
+system ("ansi_print bright_blue '$pwd'");
+system ("ansi_print white '\$ '");
