@@ -26,7 +26,7 @@ if ($#ARGV != 1) {
     "├──────────┼──────────────────────────────────────────────┤\n" .
     "│ function │ Insert thumbnails into MP4 files             │\n" .
     "├──────────┼──────────────────────────────────────────────┤\n" .
-    "│ usaeage  │ ffmpeg_join.pl input_mp4 image <⏎  >         │\n" .
+    "│ usage    │ ffmpeg_join.pl input_mp4 image <⏎  >         │\n" .
     "│          │    image : Thumbnail image (jpg, png)        │\n" .
     "└──────────┴──────────────────────────────────────────────┘\n";
     system ("ansi_print on_blue '$msg'");

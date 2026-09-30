@@ -26,7 +26,7 @@ if ($#ARGV != 1) {
     "├──────────┼──────────────────────────────────────────────┤\n" .
     "│ function │ Adjusting the volume of an MP4 file          │\n" .
     "├──────────┼──────────────────────────────────────────────┤\n" .
-    "│ usaeage  │ ffmpeg_join.pl input_mp4 vol <⏎  >           │\n" .
+    "│ usage    │ ffmpeg_join.pl input_mp4 vol <⏎  >           │\n" .
     "│          │    vol : Audio Magnification (0.5, 2, 4)     │\n" .
     "└──────────┴──────────────────────────────────────────────┘\n";
     system ("ansi_print on_blue '$msg\n'");

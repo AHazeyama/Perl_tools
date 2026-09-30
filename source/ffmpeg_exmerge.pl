@@ -29,7 +29,7 @@ if ($#ARGV != 1) {
     "├──────────┼──────────────────────────────────────────────┤\n" .
     "│ function │ Merge MP4 files                              │\n" .
     "├──────────┼──────────────────────────────────────────────┤\n" .
-    "│ usaeage  │ ffmpeg_exmerge.pl output_mp4 list.txt <⏎  >  │\n";
+    "│ usage    │ ffmpeg_exmerge.pl output_mp4 list.txt <⏎  >  │\n";
     system ("ansi_print on_blue '$msg'");
     print colored ("│          │    list.txt ", "on_blue");
     print colored ("┌───────────────────┐", "on_bright_blue");

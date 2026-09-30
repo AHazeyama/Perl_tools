@@ -26,7 +26,7 @@ if ($#ARGV != 1) {
     "├──────────┼──────────────────────────────────────────────┤\n" .
     "│ function │ MP4 file splitting                           │\n" .
     "├──────────┼──────────────────────────────────────────────┤\n" .
-    "│ usaeage  │ ffmpeg_split.pl input_mp4 sec <⏎  >          │\n" .
+    "│ usage    │ ffmpeg_split.pl input_mp4 sec <⏎  >          │\n" .
     "│          │    sec : Deletion time in seconds            │\n" .
     "└──────────┴──────────────────────────────────────────────┘\n";
     system ("ansi_print on_blue '$msg'");

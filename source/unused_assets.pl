@@ -48,7 +48,10 @@ if ($#ARGV != 1) {
     "├──────────┼─────────────────────────────────────────────────────────┤\n" .
     "│ function │ Tool to delete files not included                       │\n" .
     "├──────────┼─────────────────────────────────────────────────────────┤\n" .
-    "│ usaeage  │ unused_assets.pl assets_dir markdown_file_or_dir <⏎  >  │\n" .
+    "│ usage    │ unused_assets.pl assets_dir markdown_file_or_dir <⏎  >  │\n" .
+    "│          │                  File or Directory to check             │\n" .
+    "│          │                  Markdown to be checked                 │\n" .
+    "│          │                     (Regular expressions possible)      │\n" .
     "└──────────┴─────────────────────────────────────────────────────────┘\n";
     system ("ansi_print on_blue '$msg'");
     exit(0);

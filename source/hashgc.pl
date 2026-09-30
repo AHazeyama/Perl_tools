@@ -22,7 +22,7 @@ if ($arg_no == 1) {
     "├──────────┼───────────────────────────────────────────────┤\n" .
     "│ function │ function : Hash Value Calculator sha256 only  │\n" .
     "├──────────┼───────────────────────────────────────────────┤\n" .
-    "│ usaeage  │ hashgc.pl input_file <⏎  >                    │\n" .
+    "│ usage    │ hashgc.pl input_file <⏎  >                    │\n" .
     "└──────────┴───────────────────────────────────────────────┘\n";
     system ("ansi_print on_blue '$msg'");
     exit(0);

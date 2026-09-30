@@ -28,8 +28,9 @@ if (($#ARGV == 2) && ($ARGV[0] =~ /-R/)) {
 	"├──────────┼─────────────────────────────────────────────┤\n" .
 	"│ function │ rename of files                             │\n" .
 	"├──────────┼─────────────────────────────────────────────┤\n" .
-	"│ usaeage  │ renm.pl [-R] before_word after_word <⏎ >    │\n" .
+	"│ usage    │ renm.pl [-R] before_word after_word <⏎ >    │\n" .
 	"│          │     Regular expressions can be used.        │\n" .
+	"│          │   -R : Lower-level processing               │\n" .
 	"└──────────┴─────────────────────────────────────────────┘\n";
 	system ("ansi_print on_blue '$msg\n'");
     exit;

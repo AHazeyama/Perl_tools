@@ -27,7 +27,7 @@ if ($#ARGV != 0) {
     "├──────────┼──────────────────────────────────────────────┤\n" .
     "│ function │ MP4 Aspect Ratio Changer => 16:9 only        │\n" .
     "├──────────┼──────────────────────────────────────────────┤\n" .
-    "│ usaeage  │ ffmpeg_asp.pl input_file <⏎  >               │\n" .
+    "│ usage    │ ffmpeg_asp.pl input_file <⏎  >               │\n" .
     "└──────────┴──────────────────────────────────────────────┘\n";
     system ("ansi_print on_blue '$msg'");
     exit(0);

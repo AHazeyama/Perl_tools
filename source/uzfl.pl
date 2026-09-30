@@ -51,7 +51,7 @@ $msg =
 "├──────────┼──────────────────────────────────────────────────────┤\n" .
 "│ function │ Zip file unzipping and extraction tool               │\n" .
 "├──────────┼──────────────────────────────────────────────────────┤\n" .
-"│ usaeage  │ uzfl.pl [-E] [-K] <⏎ >                               │\n" .
+"│ usage    │ uzfl.pl [-E] [-K] <⏎ >                               │\n" .
 "│          │   -E : Extract the file                              │\n" .
 "│          │   -K : Keep the original file                        │\n" .
 "│          │   ※ The input zip file must not contain any spaces.  │\n" .

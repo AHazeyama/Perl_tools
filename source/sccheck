@@ -1,0 +1,31 @@
+#! /usr/bin/perl
+
+# Special character (my own) check tool
+# Detected word : ' ''　'!！()（）[]「」【】
+
+my $word = $ARGV[0];
+#print "check start\n";
+if ($#ARGV != 1) {
+	system ("clear");
+	$msg =
+	"\n" .
+	"┌──────────┬─────────────────────────────────────────────┐\n" .
+	"│ name     │ sccheck                                     │\n" .
+	"├──────────┼─────────────────────────────────────────────┤\n" .
+	"│ function │ Special character check                     │\n" .
+	"├──────────┼─────────────────────────────────────────────┤\n" .
+	"│ usage    │ sccheck Character-string <⏎ >               │\n" .
+	"└──────────┴─────────────────────────────────────────────┘\n";
+	system ("ansi_print on_blue '$msg\n'");
+    exit;
+} elsif (($word =~ / /)   || ($word =~ /　/)  ||
+	($word =~ /\!/)  || ($word =~ /\！/) ||
+	($word =~ /\(/)  || ($word =~ /\)/)  ||
+	($word =~ /\（/) || ($word =~ /\）/) ||
+	($word =~ /\[/)  || ($word =~ /\]/)  ||
+	($word =~ /\「/) || ($word =~ /\」/) ||
+	($word =~ /\【/) || ($word =~ /\】/)) {
+	print colored("ERROR hit is $word\n", "bright_red");            # Hit is error
+	exit(1);
+}
+exit(0);

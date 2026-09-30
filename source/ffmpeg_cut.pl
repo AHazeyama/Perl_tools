@@ -26,7 +26,7 @@ if ($#ARGV != 1) {
     "├──────────┼──────────────────────────────────────────────┤\n" .
     "│ function │ Remove the beginning portion of the MP4 file.│\n" .
     "├──────────┼──────────────────────────────────────────────┤\n" .
-    "│ usaeage  │ ffmpeg_join.pl input_mp4 sec <⏎  >           │\n" .
+    "│ usage    │ ffmpeg_join.pl input_mp4 sec <⏎  >           │\n" .
     "│          │    sec : Deletion time in seconds            │\n" .
     "└──────────┴──────────────────────────────────────────────┘\n";
     system ("ansi_print on_blue '$msg'");

@@ -17,7 +17,7 @@ if ($#ARGV == -1) {
 	"├─────────────┼────────────────────────────────┤\n";
 	system ("ansi_print bright_green '$msg'");
 
-	print colored("│ usaeage     │ ansi_print "	, "bright_green");
+	print colored("│ usage       │ ansi_print "	, "bright_green");
 	print colored("mode"				, "bright_blue");
 	print colored(" message <⏎  >  │\n"	, "bright_green");
 
