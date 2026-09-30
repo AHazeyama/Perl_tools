@@ -46,7 +46,7 @@
 
 ## GUI version  
 　各ツールのGUIバージョンはTOPページから参照できます。  
-　[ <img src="./assets/env/M_link.png" height="14"> AHazeyama/public](https://github.com/AHazeyama/public)  
+　<img src="./assets/env/M_link.png" height="14"> [AHazeyama/public](https://github.com/AHazeyama/public)  
 
 ## License  
 　TBD  
