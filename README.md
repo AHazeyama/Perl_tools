@@ -24,12 +24,12 @@
 | [ffmpeg_merge.pl](./source/ffmpeg_merge.pl) | MP4 結合コマンド | [<img src="./assets/prtsc/M_ffmpeg_merge.png">](./assets/prtsc/M_ffmpeg_merge.png) |  
 | [ffmpeg_split.pl](./source/ffmpeg_split.pl) | MP4 分割コマンド<br>　(秒指定) | [<img src="./assets/prtsc/M_ffmpeg_split.png">](./assets/prtsc/M_ffmpeg_split.png) |  
 | [ffmpeg_thumb.pl](./source/ffmpeg_thumb.pl) | MP4 サムネール付加コマンド | [<img src="./assets/prtsc/M_ffmpeg_thumb.png">](./assets/prtsc/M_ffmpeg_thumb.png) |  
-| [ffmpeg_vol.pl](./source/ffmpeg_vol.pl) | MP4 音量変更Tool | [<img src="./assets/prtsc/M_ffmpeg_vol.png">](./assets/prtsc/M_ffmpeg_vol.png) |  
-| [hashgc.pl](./source/hashgc.pl) | Hash値算出Tool(sha256 only) | [<img src="./assets/prtsc/M_hashgc.png">](./assets/prtsc/M_hashgc.png) |  
+| [ffmpeg_vol.pl](./source/ffmpeg_vol.pl) | MP4 音量変更コマンド | [<img src="./assets/prtsc/M_ffmpeg_vol.png">](./assets/prtsc/M_ffmpeg_vol.png) |  
+| [hashgc.pl](./source/hashgc.pl) | Hash値算出Tool (sha256 only) | [<img src="./assets/prtsc/M_hashgc.png">](./assets/prtsc/M_hashgc.png) |  
 | [prompt_print](./source/prompt_print) | LinuxPrompt偽装出力ルーチン | [<img src="./assets/prtsc/M_prompt.png" width="540">](./assets/prtsc/M_prompt.png) |  
-| [renm.pl](./source/renm.pl) | File/Dir一括変名ツール(正規表現対応) | [<img src="./assets/prtsc/M_renm.png">](./assets/prtsc/M_renm.png) |  
+| [renm.pl](./source/renm.pl) | File/Dir一括変名Tool (正規表現対応) | [<img src="./assets/prtsc/M_renm.png">](./assets/prtsc/M_renm.png) |  
 | [sccheck](./source/sccheck) | 特殊文字検出ルーチン | [<img src="./assets/prtsc/M_sccheck.png">](./assets/prtsc/M_sccheck.png) |  
-| [unused_assets.pl](./source/unused_assets.pl) | .md未使用ファイル削除 | [<img src="./assets/prtsc/M_unused_assets.png">](./assets/prtsc/M_unused_assets.png) |  
+| [unused_assets.pl](./source/unused_assets.pl) | .md未使用ファイル削除Tool | [<img src="./assets/prtsc/M_unused_assets.png">](./assets/prtsc/M_unused_assets.png) |  
 | [uzfl.pl](./source/uzfl.pl) | ZIP file 展張Tool<br>　(複数zipマージ+No付加可能) | [<img src="./assets/prtsc/M_uzfl.png">](./assets/prtsc/M_uzfl.png) |  
 
 > [!caution]  
