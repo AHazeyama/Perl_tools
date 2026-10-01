@@ -1,15 +1,16 @@
+<!--
 <p align="left">
   <img src="./assets/Perl_tools_title_dark.png#gh-dark-mode-only" alt="banner dark">
   <img src="./assets/Perl_tools_title_light.png#gh-light-mode-only" alt="banner light">
 </p>
-
-<!--
-<img src="./assets/Perl_tools_title_light.png">
 -->
+
+<img src="./assets/Perl_tools_title_light.png">
 
 # Overview
 　Perlで作成したツール群です。  
 　主に環境運用の容易化を目的としています。  
+
 
 ## ツール名  
 | Item <img src="./assets/env/M_file.png" height="14"> | Description | Usage or screen display |  
@@ -24,7 +25,7 @@
 | [ffmpeg_split.pl](./source/ffmpeg_split.pl) | MP4 分割コマンド<br>　(秒指定) | [<img src="./assets/prtsc/M_ffmpeg_split.png">](./assets/prtsc/M_ffmpeg_split.png) |  
 | [ffmpeg_thumb.pl](./source/ffmpeg_thumb.pl) | MP4 サムネール付加コマンド | [<img src="./assets/prtsc/M_ffmpeg_thumb.png">](./assets/prtsc/M_ffmpeg_thumb.png) |  
 | [ffmpeg_vol.pl](./source/ffmpeg_vol.pl) | MP4 音量変更Tool | [<img src="./assets/prtsc/M_ffmpeg_vol.png">](./assets/prtsc/M_ffmpeg_vol.png) |  
-| [hashgc.pl](./source/hashgc.pl) | Hash値算出Tool(sha256 only) | [<img src="./assets/prtsc/M_ffmpeg_vol.png">](./assets/prtsc/M_ffmpeg_vol.png) |  
+| [hashgc.pl](./source/hashgc.pl) | Hash値算出Tool(sha256 only) | [<img src="./assets/prtsc/M_hashgc.png">](./assets/prtsc/M_hashgc.png) |  
 | [prompt_print](./source/prompt_print) | LinuxPrompt偽装出力ルーチン | [<img src="./assets/prtsc/M_prompt.png" width="540">](./assets/prtsc/M_prompt.png) |  
 | [renm.pl](./source/renm.pl) | File/Dir一括変名ツール(正規表現対応) | [<img src="./assets/prtsc/M_renm.png">](./assets/prtsc/M_renm.png) |  
 | [sccheck](./source/sccheck) | 特殊文字検出ルーチン | [<img src="./assets/prtsc/M_sccheck.png">](./assets/prtsc/M_sccheck.png) |  
@@ -39,6 +40,8 @@
 > 　 問答無用で実行します。  
 > 　 自己責任でお願いします。<img src="./assets/env/Jonesy25_I-told-you-so.png" align="top">  
 > 引数無しで実行すると**Usage**が表示されるかも知れません <img src="./assets/env/M_cat-smail.png" height="20">  
+> "ffmpeg" で始まるツールは <img src="./assets/env/M_ffmpeg.png" height="20"> のコマンド生成&実行スクリプトです。  
+> 事前に [<img src="./assets/env/M_link.png" height="14"> <img src="./assets/env/M_ffmpeg.png" height="20">](https://www.ffmpeg.org/) をインストールして下さい。  
 > ffmpegは全て"-hide_banner"オプションを指定しています。  
 > 拡張子無しの <img src="./assets/env/M_file.png" height="14"> もPerlスクリプトです。  
 > <img src="./assets/env/M_pointing-L.png" height="14"> 他のスクリプトから呼ばれているので、利用時には <img src="./assets/env/M_download.png" height="14"> しておいて下さい。  
