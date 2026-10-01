@@ -1,11 +1,11 @@
-<!--
 <p align="left">
   <img src="./assets/Perl_tools_title_dark.png#gh-dark-mode-only" alt="banner dark">
   <img src="./assets/Perl_tools_title_light.png#gh-light-mode-only" alt="banner light">
 </p>
--->
 
+<!--
 <img src="./assets/Perl_tools_title_light.png">
+-->
 
 # Overview
 　Perlで作成したツール群です。  
