@@ -38,7 +38,7 @@
 > <img src="./assets/env/M_caution.png" height="14"> これらを使おうとする人には常識かも知れませんが…  
 > 　 危険な動作をするツールがあります。  
 > 　 問答無用で実行します。  
-> 　 自己責任でお願いします。<img src="./assets/env/Jonesy25_I-told-you-so.png" align="top">  
+> 　 <img src="./assets/env/M_self-responsibility.png" height="20" align="top"> でお願いします。<img src="./assets/env/Jonesy25_I-told-you-so.png" align="top">  
 > 引数無しで実行すると**Usage**が表示されるかも知れません <img src="./assets/env/M_cat-smail.png" height="20">  
 > "ffmpeg" で始まるコマンド (Perlスクリプト) は <img src="./assets/env/M_ffmpeg.png" height="20"> のコマンド生成&実行スクリプトです。  
 > 事前に <img src="./assets/env/M_link.png" height="14"> [<img src="./assets/env/M_ffmpeg.png" height="20">](https://www.ffmpeg.org/) をインストールして下さい。  
