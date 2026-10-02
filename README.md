@@ -41,7 +41,7 @@
 > 　 自己責任でお願いします。<img src="./assets/env/Jonesy25_I-told-you-so.png" align="top">  
 > 引数無しで実行すると**Usage**が表示されるかも知れません <img src="./assets/env/M_cat-smail.png" height="20">  
 > "ffmpeg" で始まるツールは <img src="./assets/env/M_ffmpeg.png" height="20"> のコマンド生成&実行スクリプトです。  
-> 事前に [<img src="./assets/env/M_link.png" height="14"> <img src="./assets/env/M_ffmpeg.png" height="20">](https://www.ffmpeg.org/) をインストールして下さい。  
+> 事前に <img src="./assets/env/M_link.png" height="14"> [<img src="./assets/env/M_ffmpeg.png" height="20">](https://www.ffmpeg.org/) をインストールして下さい。  
 > ffmpegは全て"-hide_banner"オプションを指定しています。  
 > 拡張子無しの <img src="./assets/env/M_file.png" height="14"> もPerlスクリプトです。  
 > <img src="./assets/env/M_pointing-L.png" height="14"> 他のスクリプトから呼ばれているので、利用時には <img src="./assets/env/M_download.png" height="14"> しておいて下さい。  
